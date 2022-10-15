@@ -39,8 +39,8 @@ const Card = (props: Props) => {
         </div>
       ) : (
         <div className="relative flex flex-col justify-start h-full mt-[84px]">
-          <div className="flex justify-center h-5/6">
-            <div className="flex flex-wrap justify-center h-full gap-8 ">
+          <div className="flex items-start justify-center h-5/6">
+            <div className={`flex flex-wrap justify-start  gap-8 w-full  `}>
               {card.map((product: CartProducts) => (
                 <CartProductCard
                   item={product}

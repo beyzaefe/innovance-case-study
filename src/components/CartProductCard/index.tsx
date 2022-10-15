@@ -23,7 +23,7 @@ const CartProductCard = (props: Props) => {
   return (
     <div
       className="flex gap-5 px-4 py-3 border border-grey3 shadow-lg rounded-lg cursor-pointer  
-     h-[150px] min-w-[30%] "
+     h-[150px] w-[30%] "
     >
       <div className="flex items-center justify-center w-1/6">
         <img
